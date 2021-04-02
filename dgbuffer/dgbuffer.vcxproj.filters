@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mesh_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mesh_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GL_CALL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framebuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ssao_gbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ssao_framebuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\shaders\nanosuit.vert" />
+    <None Include="src\shaders\nanosuit.frag" />
+    <None Include="src\shaders\light_view.vert" />
+    <None Include="src\shaders\light_view.frag" />
+    <None Include="src\shaders\gbuffer.vert" />
+    <None Include="src\shaders\gbuffer.frag" />
+    <None Include="src\shaders\lighting_pass.vert" />
+    <None Include="src\shaders\lighting_pass.frag" />
+    <None Include="src\shaders\gbuffer-ssao.vert" />
+    <None Include="src\shaders\gbuffer-ssao.frag" />
+    <None Include="src\shaders\ssao.frag" />
+    <None Include="src\shaders\ssao.vert" />
+    <None Include="src\shaders\ssao_lighting_pass.frag" />
+    <None Include="src\shaders\ssao-blur.frag" />
+    <None Include="src\print.vert" />
+    <None Include="src\print.frag" />
+    <None Include="src\deep_g.vert" />
+    <None Include="src\deep_g.geom" />
+    <None Include="src\deep_g.frag" />
+    <None Include="src\SSAO.vert" />
+    <None Include="src\SSAO.frag" />
+    <None Include="src\blur.frag" />
+    <None Include="src\deep_g_lightpass.frag" />
+  </ItemGroup>
+</Project>
